@@ -15,6 +15,7 @@
                 $_SESSION['id'] = $row['id'];
                 $_SESSION['name'] = $row['name'];
                 $_SESSION['role'] = $row['role'];
+                // session_write_close();
                 if(($_SESSION['id']) && $_SESSION['role'] == 2){
                     echo 
                     '
@@ -52,7 +53,7 @@
     }
 ?>
 
-<div class="container bg-light mt-5 mb-5" style="width: 600px">
+<div class="container bg-light mt-5 mb-5 col-10 col-sm-5" >
     <div class="row">
         <h2 class="fw-bold text-center mt-2">ĐĂNG NHẬP</h2>
         <p>

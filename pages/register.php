@@ -91,7 +91,7 @@
     }
 ?>  
     
-<div class="container bg-light mt-5 mb-5" style="width: 600px">
+<div class="container bg-light mt-5 mb-5 col-10 col-sm-5">
     <div class="row">
         <h2 class="fw-bold text-center mt-2">ĐĂNG KÝ TÀI KHOẢN</h2>
         <p>
