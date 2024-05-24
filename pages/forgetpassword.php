@@ -39,8 +39,8 @@
                         $mail->isSMTP();
                         $mail->Host = 'smtp.gmail.com';
                         $mail->SMTPAuth = true;
-                        $mail->Username = '';
-                        $mail->Password = 'mfeu muld zejs ualx';
+                        $mail->Username = ''; //tài khoản email
+                        $mail->Password = ''; //password ứng dụng
                         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                         $mail->Port = 587;
 
