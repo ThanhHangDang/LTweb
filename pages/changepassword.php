@@ -54,7 +54,7 @@
 
 <div class="container bg-light mt-5 mb-5 col-10 col-sm-5" >
     <div class="row">
-        <h2 class="fw-bold text-center mt-2">Quên mật khẩu</h2>
+        <h2 class="fw-bold text-center mt-2">Đổi mật khẩu</h2>
     </div>
 
     <form method="post" action="">
