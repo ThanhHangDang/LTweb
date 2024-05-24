@@ -33,7 +33,7 @@
         </div>
         <div class='col-lg-6'>
             <h3>" . $data['name'] . "</h3>
-            <h4 class='text-primary'> Giá " . $data['price'] . " VNĐ</h4>
+            <h4 class='text-primary'> Giá " . number_format($data["price"], 0, ',', '.') . " VNĐ</h4>
             <p>Số lượng hiện có: " . $data['quantity'] . "</p>
             <h5>Mô tả</h5>
             <p>" . $data['description'] . "</p>

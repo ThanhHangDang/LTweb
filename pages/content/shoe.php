@@ -39,7 +39,7 @@
                             <div style='height: 60px;'><h5 class='card-title'>" . $row["name"] . "</h5></div>
                             <p class='card-text'>Số lượng hiện có: " . $row["quantity"] . "</p>
                             <p class='card-text mb-2'> Giá " . $row["price"] . " VNĐ</p>
-                            <a href='./pages/cart/addCartController.php?id=". $row['id'] ."' class='btn btn-outline-primary text-decoration-none'>Mua ngay</a>
+                            <a href='./pages/cart/addCartController.php?id=". number_format($row["price"], 0, ',', '.') ."' class='btn btn-outline-primary text-decoration-none'>Mua ngay</a>
                         </div>
                     </div>
                 </a>
