@@ -48,7 +48,7 @@
     <div class='container mt-3'>
         <h3 class='text-center'>Danh sách sản phẩm</h3>
         
-        <a href='./addproduct.php'><button class='col-2 btn btn-success'>+ Thêm sản phẩm mới</button></a>
+        <a href='./addproduct.php'><button class='col-5 col-sm-2 btn btn-success'>+ Thêm sản phẩm mới</button></a>
         
 
         <table class='table table-hover container'>

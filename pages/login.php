@@ -50,6 +50,12 @@
         elseif($_POST["submit"] == "Đăng ký"){
             echo '<script>window.location.href = "index.php?headermenu=register";</script>';
         }
+        elseif($_POST["submit"] == "Quên mật khẩu?"){
+            echo '<script>window.location.href = "index.php?headermenu=forgetpassword";</script>';
+        }
+        elseif($_POST["submit"] == "Đổi mật khẩu?"){
+            echo '<script>window.location.href = "index.php?headermenu=changepassword";</script>';
+        }
     }
 ?>
 
@@ -77,7 +83,15 @@
             <div class="col">
                 <input type="submit" class="form-control btn btn-outline-primary mt-3 mb-3" name="submit" value="Đăng ký">
             </div>
-            
+        </div>
+
+        <div class="row d-flex justify-content-end">
+            <div class="col-5 col-md-5 col-sm-3">
+                <input type="submit" class="form-control mt-3 mb-3" name="submit" value="Đổi mật khẩu?">
+            </div>
+            <div class="col-5 col-md-5 col-sm-3">
+                <input type="submit" class="form-control mt-3 mb-3" name="submit" value="Quên mật khẩu?">
+            </div>
         </div>
     </form>
 </div>

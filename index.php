@@ -59,6 +59,12 @@
         elseif($term == "cart"){
             include("./pages/cart/cart.php");
         }
+        elseif($term == "forgetpassword"){
+            include("./pages/forgetpassword.php");
+        }
+        elseif($term == "changepassword"){
+            include("./pages/changepassword.php");
+        }
         else{
             include("./pages/carousel.php");
             include("./pages/sub-info.php");
